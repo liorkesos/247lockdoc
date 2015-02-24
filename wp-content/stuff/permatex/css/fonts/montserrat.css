@@ -1,0 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+#calltoaction-form .btn, a.buy-btn, a.newsletter-btn, h1, h2, h3, h4 {
+	font-family:  'Montserrat', Arial, 'Liberation Sans', FreeSans, sans-serif!important;
+	letter-spacing: -2px
+}
