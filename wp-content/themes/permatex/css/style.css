@@ -4,9 +4,6 @@
 
 /* basics & reset */
 
-.container {
-	background-color:Red;
-}
 body {
   font: 13px/1.5 Arial, 'Liberation Sans', FreeSans, sans-serif;
   color:#7d7d7d;
