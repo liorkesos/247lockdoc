@@ -159,7 +159,7 @@ jQuery(function($) {
   }
 
   // mark submenus
-  $('#main-navigation ul.sub-menu').parent('li').children('a').html(function(){ return $(this).html() + ' +'; });
+  //$('#main-navigation ul.sub-menu').parent('li').children('a').html(function(){ return $(this).html() + ' +'; });
 
   // mobile menu click
   $('#primary_menu_mobile').change(function() {
@@ -185,7 +185,7 @@ jQuery(function($) {
     gmap.attr('src', addr);
   });
 
-  // links & icons hover effects
+  /* links & icons hover effects
   $('#logo,.store-buttons a,.social-icon span,.flexslider-carousel img').css('opacity', '1');
   $('#logo,.store-buttons a,.social-icon span,.flexslider-carousel img').hover(
     function () {
@@ -193,7 +193,7 @@ jQuery(function($) {
     },
     function () {
       $(this).stop().animate({ opacity: 1 }, 'normal');
-  });
+  }); */
 
   $('.over').css('opacity', '0');
   $('.over').hover(

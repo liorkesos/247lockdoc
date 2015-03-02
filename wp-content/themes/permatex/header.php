@@ -29,7 +29,7 @@
   body_class();
   echo '>';
 
-  if (!is_front_page()) {
+  /*if (!is_front_page()) {
 ?>
 <header id="top">
       <div class="container">
@@ -69,7 +69,7 @@
       </div>
     </header>
 <?php
-      } else {
+      *///} else {
 ?>
 <header id="top">
       <div class="container">
@@ -109,4 +109,4 @@ Call the LockDoc -  (877) 365- 0729
         </div>
       </div>
     </header>
-<?php } ?>    
+<?php //} ?>    

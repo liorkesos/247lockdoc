@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Squada+One);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic,700italic,900italic);
 
 /* STYLES */
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 h1 a{
-color: #fff !important;
+color: #f9f9f9 !important;
 font-size:50px;
 }
 
@@ -46,7 +46,7 @@ h6 {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Droid Sans', sans-serif
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 ol {
@@ -145,7 +145,7 @@ input.error,textarea.error {
 	float:left;
 	display:block;
 	margin:5px 0;
-	background:#fff;
+	background:#f9f9f9;
 	box-shadow:0 1px 1px #aaa;
 }
 
@@ -207,7 +207,7 @@ figure {
 /* 3. Header */
 
 header {
-	background:url("http://247lockdoc.com/wp-content/uploads/2015/02/Downtown_Colorado_Springs_3_by_David_Shankbone.jpg") no-repeat;
+	background:url("http://lock.bounce.co.il/wp-content/uploads/2015/03/img60.png") no-repeat;
  	background-size: cover;
 /*	background:#191919;*/
 	text-align:center;
@@ -218,9 +218,11 @@ header {
 	margin-top:4%;
 	margin-bottom:-10px
 }
-
-#logo a:hover {
-	text-decoration:none
+#logo a {
+	text-shadow: -3px 3px 2px #333;
+}
+#logo a:hover, #logo a:focus, #logo a:active {
+	text-decoration:none;
 }
 
 #logo-footer {
@@ -262,7 +264,7 @@ footer .logo-fontcon {
 }
 
 #navigation ul {
-	margin:60px 0;
+	margin: 30px 0;
 	padding:0
 }
 
@@ -274,9 +276,16 @@ footer .logo-fontcon {
 	zoom:1;
 	*display:inline;
 	color:#3b3b3b;
-	font-size:21px
+	font-size:18px;
+	font-weight: 700;
 }
-
+#navigation ul li a {
+	text-shadow: -2px 2px 0 #333;
+	text-decoration: none;
+}
+#navigation ul li.menu-item a {
+	padding-bottom: 20px;
+}
 #navigation ul li:after {
    content: "/";
    margin:0 20px;
@@ -288,9 +297,13 @@ footer .logo-fontcon {
 }
 
 #navigation ul li a {
-	font-size:31px;
-	color:#fff !important;
-	font-family: 'Squada One', cursive
+	font-size:28px;
+	color:#f9f9f9 !important;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#navigation ul ul li a {
+	font-size:21px;
+	font-weight: 400;
 }
 
 #navigation ul li a:hover {
@@ -312,7 +325,7 @@ footer .logo-fontcon {
   background-position: 197px 4px !important;
   background-repeat: no-repeat !important;
   border: 0 none !important;
-  color: #FFFFFF !important;
+  color: #f9f9f9 !important;
   height: 30px !important;
   margin-bottom: 0 !important;
 }
@@ -328,22 +341,22 @@ footer .logo-fontcon {
 #teaser-page {
 	min-height:63px;
 	/* margin-bottom:50px; */
-	padding:50px 0
+	padding: 30px 0
 }
 
 #teaser-page h1 {
-	color:yellow !important;
+	color:#f9f9f9 !important;
 	font-size:48px;
 	letter-spacing:-1px;
 	margin:10px 0 0 0
 }
 #teaser-page a, #teaser-page a:hover {
-  color:#fff;
+  color:#f9f9f9;
 }
 
 #teaser h2 {
 	font-size: 60px;
-	color: #fff;
+	color: #f9f9f9;
 	text-transform: uppercase;
 	letter-spacing: 0px;
 	text-shadow:1px 1px 1px rgba(0,0,0,.25);
@@ -383,7 +396,7 @@ footer .logo-fontcon {
 }
 
 .superlist .title, .superlist2 .title {
-	color:#fff;
+	color:#f9f9f9;
 	text-shadow:1px 1px 1px rgba(0,0,0,.25);
 	font-size:19px;
 	font-weight:bold;
@@ -458,7 +471,7 @@ footer .logo-fontcon {
 
 #teaser .form-title h3 {
 	margin: 22px 0 0 0;
-	color:#fff;
+	color:#f9f9f9;
 	font-size: 42px;
 	line-height: 100%;
 }
@@ -505,24 +518,24 @@ footer .logo-fontcon {
 }
 
 #calltoaction-form input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #ffffff !important;
+  color: #f9f9f9 !important;
 }
 #calltoaction-form input:-moz-placeholder, textarea:-moz-placeholder {
-  color: #ffffff !important;
+  color: #f9f9f9 !important;
 }
 #calltoaction-form input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #ffffff !important;
+  color: #f9f9f9 !important;
   opacity: 1;
 }
 #calltoaction-form input:-ms-input-placeholder {
-  color: #ffffff !important;
+  color: #f9f9f9 !important;
 }
 
 #calltoaction-form input[type="text"], #calltoaction-form select {
 	height: 40px;
-	background-color: #111;
+	background-color: #333;
 	margin-bottom: 0;
-	color: #fff;
+	color: #f9f9f9;
 }
 
 #calltoaction-form input,#calltoaction-form textarea {
@@ -532,7 +545,7 @@ footer .logo-fontcon {
 	background-color: #111;
 	height: 130px;
 	width: 82%;
-	color:#fff;
+	color:#f9f9f9;
 	padding-top:10px;
 	margin-bottom: 0
 }
@@ -707,7 +720,7 @@ h3.section-title {
 }
 
 .flexslider-carousel img {
-	border:5px solid #fff;
+	border:5px solid #f9f9f9;
 	width: 240px;
 	height: auto
 }
@@ -744,7 +757,7 @@ section .subtitle {
 }
 
 .section-black .subtitle {
-	color:#fff
+	color:#f9f9f9
 }
 
 .social-icon {
@@ -879,7 +892,7 @@ a:hover.buy-btn {
 /* Newsletter */
 
 .section-black p.subtitle {
-	color:#fff;
+	color:#f9f9f9;
 	margin-bottom:0
 }
 
@@ -899,7 +912,7 @@ a:hover.buy-btn {
 }
 
 #newsletterform label {
-	color:#fff;
+	color:#f9f9f9;
 	text-shadow: 1px 1px rgba(0,0,0,.25);
 	font-size:12px
 }
@@ -1019,13 +1032,13 @@ cursor: pointer;
 color: #333333;
 text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
 background-color: #f5f5f5;
-background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
-background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
-background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
-background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+background-image: -moz-linear-gradient(top, #f9f9f9, #e6e6e6);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#e6e6e6));
+background-image: -webkit-linear-gradient(top, #f9f9f9, #e6e6e6);
+background-image: -o-linear-gradient(top, #f9f9f9, #e6e6e6);
+background-image: linear-gradient(to bottom, #f9f9f9, #e6e6e6);
 background-repeat: repeat-x;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ffe6e6e6', GradientType=0);
 border-color: #e6e6e6 #e6e6e6 #bfbfbf;
 border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -1084,7 +1097,7 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
   margin-left:15px;
   margin-right:10px;
   padding:0 10px 0 12px;
-  color:#fff!important;
+  color:#f9f9f9!important;
   background:#555;
   text-decoration:none;
   -moz-border-radius-bottomright:4px;
@@ -1119,7 +1132,7 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
   -moz-border-radius:2px;
   -webkit-border-radius:2px;
   border-radius:2px;
-  background:#fff;
+  background:#f9f9f9;
   -moz-box-shadow:-1px -1px 2px #111;
   -webkit-box-shadow:-1px -1px 2px #111;
   box-shadow:-1px -1px 2px #111;
@@ -1194,7 +1207,7 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
   width:400px;
   font-size:1.3em;
   line-height:1.33;
-  color:#fff;
+  color:#f9f9f9;
   border-top:1px solid #000;
   text-shadow:none;
 }
@@ -1205,14 +1218,15 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
 
 #main-content {
 	padding-bottom: 50px;
-  padding-top: 50px;
+	padding-top: 50px;
+	background: #f9f9f9;
 }
 
 /* Twitter feed */
 
 #twitter-feed {
 	text-align:left;
-	color:#fff;
+	color:#f9f9f9;
 	min-height:80px;
 	padding:35px 0
 }
@@ -1223,7 +1237,7 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
 
 .tweet {
 	font-size: 42px!important;
-	color: #fff;
+	color: #f9f9f9;
 	font-size: 35px;
 	text-shadow: 1px 1px rgba(0,0,0,.25);
 	font-style: normal;
@@ -1413,7 +1427,7 @@ pre {
 
 /***** Sub Menu *****/
 #main-navigation ul{
-margin-top:60px;
+margin-top: 0px;
 }
 #main-navigation li {
   position: relative;
@@ -1423,10 +1437,10 @@ margin-top:60px;
   display: none;
   position: absolute;
   left: -20px;
-  top: 20px;
+  top: 30px;
   z-index:9999;
   background-color: #191919;
-  padding: 25px 20px 15px 20px !important;
+  padding: 15px 25px 15px 25px !important;
   min-width: 175px;
 }
 
@@ -1528,7 +1542,7 @@ margin-top:60px;
 }
 
 img.avatar {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #f9f9f9;
   float: left;
   margin: 0 7px 0 0;
 }
@@ -1653,10 +1667,26 @@ code {
 }
 
 .btn-inverse:visited {
-  color: #fff;
+  color: #f9f9f9;
 }
 
 
 #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon {
 color: #eee !important;
+}
+
+.hp-lead .hp-lead-title {
+	font-size: 36px;
+	line-height: 44px;
+	font-weight: 900;
+	color: #fff;
+}
+.hp-lead input {
+	height: 32px;
+	width: 100%;
+	max-width: 100%;
+	line-height: 32px;
+}
+.hp-lead .btn {
+	height: 42px;
 }
