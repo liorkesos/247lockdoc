@@ -11,12 +11,12 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo('charset'); ?>" />
-<title><?php wf_theme_title(); ?></title>
+<title><?php wp_title(''); ?></title>
 <meta name="description" content="<?php wf_theme_description(); ?>" />
 <meta name="keywords" content="<?php wf_theme_keywords(); ?>" />
 <meta name="author" content="<?php wf_theme_option('meta_author'); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link rel="shortcut icon" href="<?php wf_theme_option('favicon'); ?>">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/fav.png">
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->

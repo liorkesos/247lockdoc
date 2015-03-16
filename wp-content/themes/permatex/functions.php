@@ -478,3 +478,42 @@ function wf_unique_filename($dir, $name, $ext) {
   
   return $tmp;
 }
+
+// Register Sections Post Type
+function register_sections() {
+
+	$labels = array(
+		'name'                => _x( 'Sections', 'Post Type General Name', 'ds' ),
+		'singular_name'       => _x( 'Section', 'Post Type Singular Name', 'ds' ),
+		'menu_name'           => __( 'Sections', 'ds' ),
+		'parent_item_colon'   => __( 'Parent Section:', 'ds' ),
+		'all_items'           => __( 'All Sections', 'ds' ),
+		'view_item'           => __( 'View Section', 'ds' ),
+		'add_new_item'        => __( 'Add New Section', 'ds' ),
+		'add_new'             => __( 'Add New', 'ds' ),
+		'edit_item'           => __( 'Edit Section', 'ds' ),
+		'update_item'         => __( 'Update Section', 'ds' ),
+		'search_items'        => __( 'Search Sections', 'ds' ),
+		'not_found'           => __( 'Not found', 'ds' ),
+		'not_found_in_trash'  => __( 'Not found in Trash', 'ds' ),
+	);
+	$args = array(
+		'labels'              => $labels,
+		'supports'            => array( ),
+		'taxonomies'          => array( 'post_tag' ),
+		'hierarchical'        => true,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'page',
+	);
+	register_post_type( 'section', $args );
+}
+add_action( 'init', 'register_sections', 0 );
